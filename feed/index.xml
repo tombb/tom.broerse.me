@@ -1,0 +1,24 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <title>Tom Broerse Blog</title>
+ <link href="http://tom.broerse.me/feed/" rel="self"/>
+ <link href="http://tom.broerse.me/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>hhttp://tom.broerse.me/</id>
+ <author>
+   <name>Tom Broerse</name>
+   <email>tom@broerse.me</email>
+ </author>
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://tom.broerse.me{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://tom.broerse.me{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+</feed>

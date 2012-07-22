@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="content-type">
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<title>{{ page.title }} | Tom Broerse</title>
+		<link href="/stylesheets/skin.css" rel="stylesheet">
+		<link rel="stylesheet" href="/stylesheets/pygment_trac.css">
+		<link rel="shortcut icon" href="/images/favicon.ico">
+		<link href="http://feeds.feedburner.com/TomBroerseBlog" rel="alternate" type="application/atom+xml">
+		<link href="http://fonts.googleapis.com/css?family=Bitter:400,700,400italic" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">
+		<script type="text/javascript">
+
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-34226094-1']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
+	</head>
+	<body id="{{ page.title | downcase | replace ' ', '-' }}-page">
+		<div id="wrapper">
+			<header id="header">
+				<div class="centered">
+					<div class="row">
+						<div class="three columns">
+							<a href="/">
+								<img alt="Tom Broerse" id="avatar" src="/images/tom.png">
+							</a>
+						</div>
+						<div class="nine columns">
+							<div id="topnav" class="hide-for-small">
+								<nav role="navigation">
+									<dl class="tabs mobile">
+										<dd>
+											<a href="/about">About</a>
+										</dd>
+										<dd>
+											<a href="/blog">Blog</a>
+										</dd>
+										<dd>
+											<a href="/projects">Projects</a>
+										</dd>
+										<dd>
+											<a href="/resume">Resume</a>
+										</dd>
+									</dl>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="centered" id="content">
+				<div class="row">
+					<div class="three columns">
+						<div class="row hide-for-small">
+						</div>
+					</div>
+					<section class="nine columns">
+						{{ content }}
+					</section>
+				</div>
+			</div>
+			<div class="show-for-small" id="bottomnav" >
+				<nav role="navigation">
+					<dl class="tabs mobile">
+						<dd>
+							<a href="/about">About</a>
+						</dd>
+						<dd>ho
+							<a href="/blog">Blog</a>
+						</dd>
+						<dd>
+							<a href="/projects">Projects</a>
+						</dd>
+						<dd>
+							<a href="/resume">Resume</a>
+						</dd>
+					</dl>
+				</nav>
+			</div>
+			<div class="push"></div>
+		</div>
+		<footer class="site-footer centered">
+			<div class="row">
+				<div class="eight columns">
+					<ul class="feeds">
+						<li>
+							<a href="http://feeds.feedburner.com/TomBroerseBlog"><img src="/images/rss.png"></a>
+						</li>
+						<li>
+							<a href="http://github.com/tombb"><img src="/images/github.png"></a>
+						</li>
+						<li>
+							<a href="http://linkedin.com/in/tombroerse"><img src="/images/linkedin.png"></a>
+						</li>
+					</ul>
+				</div>
+				<div id="copyright" class="four columns align-right">
+					<span class="copyright">
+						&copy; 2012
+					</span>
+					<a href="http://tom.broerse.me">Tom Broerse</a>
+				</div>
+			</div>
+		</footer>
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		{% if page.title == 'Projects' %} 
+			{% include project_slider.html %}
+		{% endif %}
+	</body>
+</html>
