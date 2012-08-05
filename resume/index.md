@@ -119,6 +119,9 @@ Databases and Web-based Applications, E-business & E-government
 Extra Curricular
 ----------------
 
+* Developed Chrome Extension 
+  [Outlook 365 Notifier](https://chrome.google.com/webstore/detail/dhfemhokeipigjjdopkanibcilnbbjpf)
+  __2012__
 * _Lead designer/developer, Website committee Student Surfing 
   Association_ [D.E.R.M.](http://www.derm.nl) __2005__
 * Writer and Graphic Designer, Student Surfing Association D.E.R.M. 

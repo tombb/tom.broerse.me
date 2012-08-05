@@ -6,8 +6,31 @@ layout: default
 Projects
 ========
 
-This page lists some projects I've done outside of work. 
+This page lists some projects I've done outside of work. You can check out the
+code behind the non-embarrassing stuff on my 
+[GitHub account](http://github.com/tombb).
 
+
+<div markdown="1" class="project">
+
+Outlook 365 Notifier
+--------------------
+
+<img src="/images/projects/outlook365_notifier.png">
+
+A Chrome browser extension, actively maintained, that provides some handy 
+extra functionality for Microsoft Outlook 365 users. Displays number of
+unread emails, provides desktop notifications and enables full version of
+the web app on Linux.
+
+* Released in August 2012
+* Actively maintained
+* ~ 50 users
+* [Visit the website](https://chrome.google.com/webstore/detail/dhfemhokeipigjjdopkanibcilnbbjpf)
+* [Check out the code](https://github.com/tombb)
+
+
+</div>
 <div markdown="1" class="project">
 
 Derm.nl
