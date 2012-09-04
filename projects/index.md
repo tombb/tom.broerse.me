@@ -25,7 +25,7 @@ the web app on Linux.
 
 * Released in August 2012
 * Actively maintained
-* ~ 50 users
+* ~ 150 users
 * [Visit the website](https://chrome.google.com/webstore/detail/dhfemhokeipigjjdopkanibcilnbbjpf)
 * [Check out the code](https://github.com/tombb)
 
