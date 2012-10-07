@@ -1,3 +1,4 @@
 pygments: true
 permalink: /posts/:title
 markdown: maruku
+pdftool: wkhtmltopdf --print-media-type --zoom 0.83

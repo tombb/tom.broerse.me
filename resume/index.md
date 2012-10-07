@@ -1,6 +1,8 @@
 ---
 title: Resume
 layout: resume
+pdf_version: /downloads/tom_broerse_resume.pdf
+plain_text_version: /downloads/tom_broerse_resume.md
 ---
 
 Tom Broerse
