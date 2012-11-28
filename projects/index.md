@@ -13,6 +13,26 @@ code behind the non-embarrassing stuff on my
 
 <div markdown="1" class="project">
 
+Outlook.com Notifier
+--------------------
+
+<img src="/images/projects/outlook_com_notifier.png">
+
+A Chrome browser extension that provides some handy extra functionality for 
+users of Outlook.com, formerly Hotmail. Created on popular request from users
+of Outlook365 Notifier. Displays the number of unread emails and optionally
+provides desktop notifications.
+
+* Released in November 2012
+* Actively maintained
+* ~ 2000 users
+* [Visit the website](https://chrome.google.com/webstore/detail/outlookcom-notifier/mkmomflkhdooajekmffpilpoenndjppk)
+* [Check out the code](https://github.com/tombb)
+
+
+</div>
+<div markdown="1" class="project">
+
 Outlook 365 Notifier
 --------------------
 
@@ -25,7 +45,7 @@ the web app on Linux.
 
 * Released in August 2012
 * Actively maintained
-* ~ 400 users
+* ~ 600 users
 * [Visit the website](https://chrome.google.com/webstore/detail/dhfemhokeipigjjdopkanibcilnbbjpf)
 * [Check out the code](https://github.com/tombb)
 
