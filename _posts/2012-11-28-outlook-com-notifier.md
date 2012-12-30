@@ -12,7 +12,7 @@ The reason: it was never meant to.
 This got me browsing the Chrome Webstore for an extension that does what
 these people want. To my surprise I was unable to find it. Although I'm not
 a Hotmail user nor a Christian, I decided to write one. Love Thy Neighbor as 
-Yourself!
+Thyself!
 
 After a few hours refactoring and tweaking the original extension, there we go:
 An email checker for users of Microsoft's new smart and modern free inbox.
