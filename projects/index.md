@@ -25,7 +25,7 @@ provides desktop notifications.
 
 * Released in November 2012
 * Actively maintained
-* ~ 2000 users
+* ~ 4000 users
 * [Visit the website](https://chrome.google.com/webstore/detail/outlookcom-notifier/mkmomflkhdooajekmffpilpoenndjppk)
 * [Check out the code](https://github.com/tombb)
 

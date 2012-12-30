@@ -166,7 +166,7 @@ strong, b { font-weight: bold; line-height: inherit; }
 
 small { font-size: 60%; line-height: inherit; }
 
-code { font-weight: bold; background: #ffff99; }
+code { font-weight: bold; }
 
 /* Lists ---------------------- */
 ul, ol { font-size: 14px; line-height: 1.6; margin-bottom: 17px; list-style-position: outside; }
@@ -1054,6 +1054,10 @@ pre {
   overflow: auto;
   padding: 1em;
   width: 100%;
+  color: #BABDB6;
+  font-size: 0.875em;
+  line-height: 1.714em;
+  font-family: Menlo, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", Monaco, monospace;
 }
 
 code {
@@ -1065,7 +1069,6 @@ code {
 pre {
   background: #111111;
   clear: both;
-  color: #f0f0f0;
 }
 pre.plain {
   background: inherit;
