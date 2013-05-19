@@ -1268,6 +1268,7 @@ pre.plain {
 
 #project-slides-container .project  li {
 	display: inline-block;
+  white-space: nowrap;
 	padding-left: 4px;
 	padding-right: 4px;
 }
@@ -1326,6 +1327,7 @@ pre.plain {
 	display: inline-block;
 	padding-left: 4px;
 	padding-right: 4px;
+  white-space: nowrap;
 }
 
 #resume-page section ul:first-of-type li:last-of-type:after {
